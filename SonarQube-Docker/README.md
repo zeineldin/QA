@@ -33,3 +33,9 @@ server {
 }
 
 ```
+3. Copy your certificates file in the same folder  ./reverse_proxy/nginx
+   in my case the files are -> sonarqube.pem and sonarqube-key.pem
+4. then 
+```
+docker compose up -d
+```
