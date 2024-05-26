@@ -1,9 +1,9 @@
 ### This docker-compose file helps you to use SonarQube and secure it via SSL certificate 
 
 
-# you have to create shared Folder to share your certificate and config files for reverse proxy 
+1.  You have to create shared Folder to share your certificate and config files for reverse proxy 
 
-
+2. adding default.conf file "please note that you have to add your domain name and certificate files "
 # in vim reverse_proxy/nginx/
 ```
 
